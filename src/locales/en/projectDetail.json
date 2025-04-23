@@ -1,0 +1,17 @@
+{
+    "challenge": "The Challenge",
+    "solution": "Our Solution",
+    "technologiesUsed": "Technologies Used",
+    "keyFeatures": "Key Features",
+    "results": "Results",
+    "client": "Client:",
+    "category": "Category:",
+    "completed": "Completed:",
+    "website": "Website:",
+    "visitWebsite": "Visit Website",
+    "backToPortfolio": "Back to Portfolio",
+    "visitLiveWebsite": "Visit Live Website",
+    "projectNotFound": "Project Not Found",
+    "projectNotFoundMessage": "The project you're looking for doesn't exist or has been removed.",
+    "loading": "Loading..."
+}

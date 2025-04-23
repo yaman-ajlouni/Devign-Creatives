@@ -1,0 +1,48 @@
+{
+    "sectionTitle": "Get In Touch",
+    "sectionSubtitle": "Have a project in mind? Let's discuss how we can help bring your vision to life.",
+    "location": {
+        "title": "Our Location",
+        "value": "Damascus, Syria"
+    },
+    "email": {
+        "title": "Email Us",
+        "value": "info@devigncreatives.com"
+    },
+    "phone": {
+        "title": "Call Us",
+        "value": "+963 991 951 452"
+    },
+    "social": {
+        "title": "Connect With Us"
+    },
+    "form": {
+        "nameLabel": "Your Name *",
+        "namePlaceholder": "Enter your full name",
+        "nameError": "Name is required",
+        "emailLabel": "Email Address *",
+        "emailPlaceholder": "your.email@example.com",
+        "emailError": "Email is required",
+        "emailInvalidError": "Email is invalid",
+        "phoneLabel": "Phone Number",
+        "phonePlaceholder": "(Optional) Your phone number",
+        "serviceLabel": "Service Interested In *",
+        "servicePlaceholder": "Select a service",
+        "serviceError": "Please select a service",
+        "messageLabel": "Your Message *",
+        "messagePlaceholder": "Tell us about your project and how we can help...",
+        "messageError": "Message is required",
+        "submitButton": "Send Message",
+        "submittingButton": "Sending..."
+    },
+    "services": {
+        "website": "Website Development",
+        "application": "Application Development",
+        "social": "Social Media Management",
+        "other": "Other"
+    },
+    "success": {
+        "title": "Thank You!",
+        "message": "Your message has been sent successfully. We'll get back to you shortly."
+    }
+}

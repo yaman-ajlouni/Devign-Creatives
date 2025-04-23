@@ -1,0 +1,56 @@
+/* Global RTL styles */
+html[dir="rtl"] {
+    /* Override text alignment for RTL */
+    text-align: right;
+
+    /* Flip padding and margins */
+    .ml-auto {
+        margin-left: 0 !important;
+        margin-right: auto !important;
+    }
+
+    .mr-auto {
+        margin-right: 0 !important;
+        margin-left: auto !important;
+    }
+
+    /* Flip flex direction for certain elements */
+    .flex-row {
+        flex-direction: row-reverse;
+    }
+
+    /* Flip icons that indicate direction */
+    .arrow-right:before {
+        transform: rotate(180deg);
+    }
+
+    .arrow-left:before {
+        transform: rotate(180deg);
+    }
+
+    /* Adjust form inputs for RTL */
+    input,
+    textarea {
+        text-align: right;
+    }
+
+    /* Fix bootstrap or other framework RTL issues if needed */
+    .offset-right {
+        margin-right: 0 !important;
+        margin-left: auto !important;
+    }
+
+    /* Fix any floating elements */
+    .float-left {
+        float: right !important;
+    }
+
+    .float-right {
+        float: left !important;
+    }
+}
+
+/* Font adjustments for Arabic */
+html[dir="rtl"] body{
+    font-family: 'Cairo', 'Tajawal', sans-serif;
+}

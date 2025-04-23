@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import './assets/styles/variables.scss';
+@import './assets/styles/mixins.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-primary;
+  line-height: 1.6;
+  color: $dark-gray;
+  background-color: $white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-secondary;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: $deep-blue;
+  transition: $transition;
+
+  &:hover {
+    color: $vibrant-green;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  @include container;
+}
+
+.section {
+  @include section-padding;
+}
+
+.section-title {
+  @include section-title;
+}
+
+.btn-primary {
+  @include button($deep-blue, $white, darken($deep-blue, 10%));
+}
+
+.btn-secondary {
+  @include button($vibrant-green, $white, darken($vibrant-green, 10%));
+}
+
+.btn-tertiary {
+  @include button($orange, $white, darken($orange, 10%));
+}

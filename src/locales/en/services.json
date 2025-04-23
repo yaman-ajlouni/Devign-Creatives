@@ -1,0 +1,47 @@
+{
+    "sectionTitle": "Our Services",
+    "sectionSubtitle": "We deliver cutting-edge digital solutions to elevate your business",
+    "services": [
+      {
+        "id": 0,
+        "icon": "fa-globe",
+        "title": "Website Development",
+        "description": "Custom-designed, responsive websites tailored to your brand identity and business goals. We create intuitive user experiences that convert visitors into customers.",
+        "features": [
+          "Responsive Design",
+          "SEO Optimization",
+          "Content Management Systems",
+          "E-commerce Solutions",
+          "Performance Optimization"
+        ]
+      },
+      {
+        "id": 1,
+        "icon": "fa-mobile-alt",
+        "title": "Application Development",
+        "description": "From concept to deployment, we build robust and scalable applications for web, mobile, and desktop platforms that drive business growth and streamline operations.",
+        "features": [
+          "Native & Cross-platform Apps",
+          "UI/UX Design",
+          "API Integration",
+          "Database Architecture",
+          "Maintenance & Support"
+        ]
+      },
+      {
+        "id": 2,
+        "icon": "fa-hashtag",
+        "title": "Social Media Management",
+        "description": "Strategic social media planning, content creation, and analytics to boost your brand presence on platforms like Instagram and Facebook, engaging your target audience.",
+        "features": [
+          "Content Strategy",
+          "Campaign Management",
+          "Community Engagement",
+          "Performance Analytics",
+          "Paid Advertising"
+        ]
+      }
+    ],
+    "ctaContactButton": "Let's Talk",
+    "ctaPortfolioButton": "View Examples"
+  }

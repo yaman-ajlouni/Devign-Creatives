@@ -1,0 +1,48 @@
+{
+    "sectionTitle": "تواصل معنا",
+    "sectionSubtitle": "هل لديك مشروع في ذهنك؟ دعنا نناقش كيف يمكننا المساعدة في تحقيق رؤيتك.",
+    "location": {
+        "title": "موقعنا",
+        "value": "دمشق، سوريا"
+    },
+    "email": {
+        "title": "راسلنا",
+        "value": "info@devigncreatives.com"
+    },
+    "phone": {
+        "title": "اتصل بنا",
+        "value": "+963 991 951 452"
+    },
+    "social": {
+        "title": "تواصل معنا"
+    },
+    "form": {
+        "nameLabel": "الاسم *",
+        "namePlaceholder": "أدخل اسمك الكامل",
+        "nameError": "الاسم مطلوب",
+        "emailLabel": "البريد الإلكتروني *",
+        "emailPlaceholder": "بريدك@مثال.كوم",
+        "emailError": "البريد الإلكتروني مطلوب",
+        "emailInvalidError": "البريد الإلكتروني غير صحيح",
+        "phoneLabel": "رقم الهاتف",
+        "phonePlaceholder": "(اختياري) رقم هاتفك",
+        "serviceLabel": "الخدمة المطلوبة *",
+        "servicePlaceholder": "اختر خدمة",
+        "serviceError": "الرجاء اختيار خدمة",
+        "messageLabel": "رسالتك *",
+        "messagePlaceholder": "أخبرنا عن مشروعك وكيف يمكننا المساعدة...",
+        "messageError": "الرسالة مطلوبة",
+        "submitButton": "إرسال الرسالة",
+        "submittingButton": "جاري الإرسال..."
+    },
+    "services": {
+        "website": "تطوير المواقع الإلكترونية",
+        "application": "تطوير التطبيقات",
+        "social": "إدارة وسائل التواصل الاجتماعي",
+        "other": "أخرى"
+    },
+    "success": {
+        "title": "شكراً لك!",
+        "message": "تم إرسال رسالتك بنجاح. سنعود إليك قريباً."
+    }
+}

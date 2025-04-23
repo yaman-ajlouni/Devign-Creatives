@@ -1,0 +1,80 @@
+@import './variables';
+
+// Media Queries
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == sm {
+    @media (min-width: $breakpoint-sm) { @content; }
+  } @else if $breakpoint == md {
+    @media (min-width: $breakpoint-md) { @content; }
+  } @else if $breakpoint == lg {
+    @media (min-width: $breakpoint-lg) { @content; }
+  } @else if $breakpoint == xl {
+    @media (min-width: $breakpoint-xl) { @content; }
+  }
+}
+
+// Flex Center
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Button Styles
+@mixin button($bg-color, $text-color, $hover-bg-color) {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: $bg-color;
+  color: $text-color;
+  border: none;
+  border-radius: $border-radius;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: $transition;
+  
+  &:hover {
+    background-color: $hover-bg-color;
+  }
+}
+
+// Section Padding
+@mixin section-padding {
+  padding: 60px 0;
+  
+  @include respond-to(md) {
+    padding: 80px 0;
+  }
+  
+  @include respond-to(lg) {
+    padding: 100px 0;
+  }
+}
+
+// Container
+@mixin container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+// Section Title
+@mixin section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  position: relative;
+  
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 4px;
+    background-color: $vibrant-green;
+  }
+}

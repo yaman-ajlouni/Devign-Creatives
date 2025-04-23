@@ -1,0 +1,39 @@
+{
+    "sectionTitle": "About Us",
+    "missionTitle": "Our Mission",
+    "missionText": "At DevignCreatives, we're dedicated to empowering businesses through innovative digital solutions. We combine technical expertise with creative thinking to deliver websites, applications, and social media strategies that drive growth and enhance user experiences.",
+    "valuesTitle": "Our Values",
+    "values": [
+        {
+            "title": "Innovation",
+            "description": "We constantly explore emerging technologies to provide cutting-edge solutions.",
+            "icon": "fa-lightbulb"
+        },
+        {
+            "title": "Collaboration",
+            "description": "We work closely with our clients to understand their unique needs and goals.",
+            "icon": "fa-users"
+        },
+        {
+            "title": "Excellence",
+            "description": "We're committed to delivering high-quality work that exceeds expectations.",
+            "icon": "fa-trophy"
+        },
+        {
+            "title": "Integrity",
+            "description": "We maintain transparency and honesty in all our business practices.",
+            "icon": "fa-shield-alt"
+        }
+    ],
+    "teamTitle": "Meet Our Team",
+    "team": [
+        {
+            "name": "Yaman",
+            "bio": "With over 3 years of experience in software development, Yaman brings technical expertise and innovative vision to every project."
+        },
+        {
+            "name": "Omar",
+            "bio": "Omar specializes in creating scalable applications and implementing cutting-edge technologies to deliver exceptional digital experiences."
+        }
+    ]
+}

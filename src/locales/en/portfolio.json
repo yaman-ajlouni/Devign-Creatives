@@ -1,0 +1,67 @@
+{
+    "sectionTitle": "Our Portfolio",
+    "sectionSubtitle": "Explore our recent projects and success stories that showcase our expertise",
+    "categories": [
+        {
+            "id": "all",
+            "name": "All Projects",
+            "icon": "fa-th-large"
+        },
+        {
+            "id": "website",
+            "name": "Websites",
+            "icon": "fa-globe"
+        },
+        {
+            "id": "application",
+            "name": "Applications",
+            "icon": "fa-mobile-alt"
+        },
+        {
+            "id": "social",
+            "name": "Social Media",
+            "icon": "fa-hashtag"
+        }
+    ],
+    "projects": [
+        {
+            "id": "crispy-crunch",
+            "title": "Crispy Crunch",
+            "category": "website",
+            "description": "A modern, responsive website for a popular restaurant chain.",
+            "features": [
+                "Responsive Design",
+                "Online Ordering System",
+                "Menu Management",
+                "Reservation System"
+            ]
+        },
+        {
+            "id": "gym-website",
+            "title": "Power Gym",
+            "category": "website",
+            "description": "A dynamic website for a fitness center featuring class schedules and membership options.",
+            "features": [
+                "Membership Portal",
+                "Class Scheduling",
+                "Trainer Profiles",
+                "Fitness Tracking"
+            ]
+        },
+        {
+            "id": "syrian-hotels",
+            "title": "Syrian Hotels",
+            "category": "application",
+            "description": "A comprehensive hotel booking application with user accounts and payment integration.",
+            "features": [
+                "Room Booking System",
+                "Payment Gateway",
+                "User Reviews",
+                "Loyalty Program"
+            ]
+        }
+    ],
+    "viewDetailsButton": "View Details",
+    "noProjectsTitle": "No Projects Found",
+    "noProjectsDescription": "We don't have any projects in this category yet. Check back soon or explore other categories!"
+}

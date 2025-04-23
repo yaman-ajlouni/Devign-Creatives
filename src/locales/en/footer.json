@@ -1,0 +1,38 @@
+{
+    "tagline": "We transform ideas into powerful digital experiences through expert development and strategic solutions.",
+    "services": {
+        "title": "Services",
+        "items": {
+            "website": "Website Development",
+            "application": "Application Development",
+            "social": "Social Media Management",
+            "uiux": "UI/UX Design"
+        }
+    },
+    "company": {
+        "title": "Company",
+        "items": {
+            "about": "About Us",
+            "portfolio": "Portfolio",
+            "contact": "Contact"
+        }
+    },
+    "support": {
+        "title": "Support",
+        "items": {
+            "faq": "FAQ",
+            "privacy": "Privacy Policy",
+            "terms": "Terms of Service",
+            "sitemap": "Sitemap"
+        }
+    },
+    "newsletter": {
+        "title": "Subscribe to Our Newsletter",
+        "subtitle": "Stay updated with our latest news and offers.",
+        "placeholder": "Your Email Address",
+        "button": "Subscribe"
+    },
+    "copyright": "All rights reserved.",
+    "designed": "Designed with",
+    "by": "by DevignCreatives Team"
+}

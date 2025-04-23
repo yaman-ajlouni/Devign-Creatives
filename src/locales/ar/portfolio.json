@@ -1,0 +1,67 @@
+{
+    "sectionTitle": "معرض أعمالنا",
+    "sectionSubtitle": "استكشف مشاريعنا الحديثة وقصص النجاح التي توضح خبراتنا",
+    "categories": [
+        {
+            "id": "all",
+            "name": "جميع المشاريع",
+            "icon": "fa-th-large"
+        },
+        {
+            "id": "website",
+            "name": "مواقع الويب",
+            "icon": "fa-globe"
+        },
+        {
+            "id": "application",
+            "name": "التطبيقات",
+            "icon": "fa-mobile-alt"
+        },
+        {
+            "id": "social",
+            "name": "وسائل التواصل",
+            "icon": "fa-hashtag"
+        }
+    ],
+    "projects": [
+        {
+            "id": "crispy-crunch",
+            "title": "Crispy Crunch",
+            "category": "website",
+            "description": "موقع ويب حديث ومتجاوب لسلسلة مطاعم شهيرة.",
+            "features": [
+                "تصميم متجاوب",
+                "نظام طلب عبر الإنترنت",
+                "إدارة القائمة",
+                "نظام الحجوزات"
+            ]
+        },
+        {
+            "id": "gym-website",
+            "title": "Power Gym",
+            "category": "website",
+            "description": "موقع ويب ديناميكي لمركز لياقة بدنية يعرض جداول الحصص وخيارات العضوية.",
+            "features": [
+                "بوابة العضوية",
+                "جدولة الحصص",
+                "ملفات المدربين",
+                "تتبع اللياقة البدنية"
+            ]
+        },
+        {
+            "id": "syrian-hotels",
+            "title": "Syrian Hotels",
+            "category": "application",
+            "description": "تطبيق شامل لحجز الفنادق مع حسابات المستخدمين ودمج المدفوعات.",
+            "features": [
+                "نظام حجز الغرف",
+                "بوابة الدفع",
+                "تقييمات المستخدمين",
+                "برنامج الولاء"
+            ]
+        }
+    ],
+    "viewDetailsButton": "عرض التفاصيل",
+    "noProjectsTitle": "لا توجد مشاريع",
+    "noProjectsDescription": "ليس لدينا أي مشاريع في هذه الفئة حتى الآن. تحقق مرة أخرى قريبًا أو استكشف فئات أخرى!"
+}

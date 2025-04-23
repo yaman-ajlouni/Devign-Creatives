@@ -1,0 +1,17 @@
+{
+    "challenge": "التحدي",
+    "solution": "الحل المقدم",
+    "technologiesUsed": "التقنيات المستخدمة",
+    "keyFeatures": "الميزات الرئيسية",
+    "results": "النتائج",
+    "client": "العميل:",
+    "category": "الفئة:",
+    "completed": "تاريخ الإنجاز:",
+    "website": "الموقع الإلكتروني:",
+    "visitWebsite": "زيارة الموقع",
+    "backToPortfolio": "العودة إلى المشاريع",
+    "visitLiveWebsite": "زيارة الموقع المباشر",
+    "projectNotFound": "المشروع غير موجود",
+    "projectNotFoundMessage": "المشروع الذي تبحث عنه غير موجود أو تمت إزالته.",
+    "loading": "جاري التحميل..."
+}
