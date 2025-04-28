@@ -87,13 +87,8 @@
             font-size: 1.5rem;
             font-weight: 700;
 
-            .logo-text {
-                color: $white;
-            }
-
-            .logo-accent {
-                color: $vibrant-green;
-                margin-left: 5px;
+            img{
+                height: 100px;
             }
         }
 
@@ -200,6 +195,8 @@
         .newsletter-form {
             .form-group {
                 position: relative;
+                display: flex;
+                align-items: center;
 
                 input {
                     width: 100%;
@@ -222,8 +219,8 @@
 
                 button {
                     position: absolute;
-                    right: 5px;
-                    top: 5px;
+                    right: 2px;
+                    top: 3px;
                     width: 40px;
                     height: 40px;
                     border-radius: 50%;

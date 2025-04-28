@@ -22,11 +22,6 @@
         direction: rtl;
         text-align: right;
 
-        .logo-accent {
-            margin-left: 0;
-            margin-right: 5px;
-        }
-
         .nav-item {
             margin-left: 0;
             margin-right: 20px;
@@ -90,13 +85,9 @@
         font-weight: 700;
         direction: ltr;
 
-        .logo-text {
-            color: $deep-blue;
-        }
-
-        .logo-accent {
-            color: $vibrant-green;
-            margin-left: 5px;
+        img{
+            object-fit: contain;
+            height: 60px;
         }
     }
 
@@ -197,13 +188,8 @@
                 font-size: 1.3rem;
                 font-weight: 700;
 
-                .logo-text {
-                    color: $deep-blue;
-                }
-
-                .logo-accent {
-                    color: $vibrant-green;
-                    margin-left: 5px;
+                img{
+                    height: 70px;
                 }
             }
 

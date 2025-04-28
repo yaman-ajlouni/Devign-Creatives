@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import './Footer.scss';
 import { useLanguage } from '../../context/LanguageContext';
 import { useTranslation } from '../../utils/i18n';
+import logo from '../../assets/images/Logo-white-noBG.png'
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
@@ -14,8 +15,7 @@ const Footer = () => {
                 <div className="footer-content">
                     <div className="footer-logo">
                         <Link to="/" className="logo">
-                            <span className="logo-text">Devign</span>
-                            <span className="logo-accent">Creatives</span>
+                            <img src={logo} alt="company-logo" />
                         </Link>
                         <p>
                             {t('tagline')}

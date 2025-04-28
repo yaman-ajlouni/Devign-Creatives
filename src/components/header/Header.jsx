@@ -3,6 +3,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import './Header.scss';
 import { useLanguage } from '../../context/LanguageContext';
 import { useTranslation } from '../../utils/i18n';
+import logo from '../../assets/images/Logo-01-cutted.jpg'
 
 const Header = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -14,7 +15,7 @@ const Header = () => {
     const mobileToggleRef = useRef(null);
     const location = useLocation();
     const navigate = useNavigate();
-    
+
     // Check if we're on a project detail page
     const isProjectPage = location.pathname.includes('/project/');
 
@@ -83,7 +84,7 @@ const Header = () => {
     const closeMobileMenu = () => {
         setIsMobileMenuOpen(false);
     };
-    
+
     // Handle navigation
     const handleNavigation = (sectionId, e) => {
         e.preventDefault();
@@ -103,8 +104,7 @@ const Header = () => {
             <div className="container">
                 <div className="header-content">
                     <Link to="/" className="logo" onClick={() => setActiveSection('home')}>
-                        <span className="logo-text">Devign</span>
-                        <span className="logo-accent">Creatives</span>
+                        <img src={logo} alt="" />
                     </Link>
                     <div
                         className={`mobile-menu-toggle ${isMobileMenuOpen ? 'active' : ''}`}
@@ -119,8 +119,7 @@ const Header = () => {
                     <nav className={`nav ${isMobileMenuOpen ? 'open' : ''}`} ref={mobileMenuRef}>
                         <div className="mobile-menu-header">
                             <Link to="/" className="mobile-logo" onClick={() => { setActiveSection('home'); closeMobileMenu(); }}>
-                                <span className="logo-text">Devign</span>
-                                <span className="logo-accent">Creatives</span>
+                                <img src={logo} alt="" />
                             </Link>
                             <button className="mobile-menu-close" onClick={closeMobileMenu}>
                                 <i className="fas fa-times"></i>
