@@ -1,6 +1,12 @@
 {
     "sectionTitle": "Our Portfolio",
     "sectionSubtitle": "Explore our recent projects and success stories that showcase our expertise",
+    "comingSoonTitle": "Portfolio Coming Soon",
+    "comingSoonDescription": "I'm currently working on some amazing projects that will showcase my skills and expertise. Stay tuned for updates!",
+    "webDevelopment": "Web Development",
+    "mobileApps": "Mobile Apps",
+    "uiuxDesign": "UI/UX Design",
+    "inProgress": "In Progress...",
     "categories": [
         {
             "id": "all",

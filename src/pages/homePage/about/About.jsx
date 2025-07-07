@@ -115,7 +115,7 @@ const About = () => {
                     </div>
 
                     <div className="team-section">
-                        <h3>{t('teamTitle')}</h3>
+                        <h3>{t('founderTitle')}</h3>
                         <div className="team-grid">
                             {team.map((member, index) => (
                                 <div key={index} className="team-member" style={{ animationDelay: `${index * 0.2}s` }}>

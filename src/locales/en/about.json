@@ -25,15 +25,13 @@
             "icon": "fa-shield-alt"
         }
     ],
-    "teamTitle": "Meet Our Team",
+    "founderTitle": "Our Founders",
     "team": [
         {
-            "name": "Yaman",
-            "bio": "With over 3 years of experience in software development, Yaman brings technical expertise and innovative vision to every project."
+            "name": "Yaman"
         },
         {
-            "name": "Omar",
-            "bio": "Omar specializes in creating scalable applications and implementing cutting-edge technologies to deliver exceptional digital experiences."
+            "name": "Omar"
         }
     ]
 }

@@ -1,6 +1,12 @@
 {
     "sectionTitle": "معرض أعمالنا",
     "sectionSubtitle": "استكشف مشاريعنا الحديثة وقصص النجاح التي توضح خبراتنا",
+    "comingSoonTitle": "معرض الأعمال قريباً",
+    "comingSoonDescription": "أعمل حالياً على مشاريع مذهلة ستعرض مهاراتي وخبراتي. ترقبوا التحديثات!",
+    "webDevelopment": "تطوير الويب",
+    "mobileApps": "تطبيقات الهاتف",
+    "uiuxDesign": "تصميم واجهة المستخدم",
+    "inProgress": "قيد التطوير...",
     "categories": [
         {
             "id": "all",
