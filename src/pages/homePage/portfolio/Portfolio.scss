@@ -189,16 +189,23 @@
         width: 100%;
         position: relative;
         overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
 
         @media (max-width: $breakpoint-md) {
             padding: 60px 40px;
             border-radius: 25px;
+            gap: 25px;
         }
 
         @media (max-width: $breakpoint-sm) {
-            padding: 40px 30px;
+            padding: 60px 20px;
             border-radius: 20px;
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06);
+            gap: 20px;
         }
 
         &::before {
@@ -217,12 +224,8 @@
 
     .coming-soon-icon {
         position: relative;
-        margin-bottom: 40px;
         display: inline-block;
-
-        @media (max-width: $breakpoint-sm) {
-            margin-bottom: 30px;
-        }
+        width: 100%;
 
         .icon-wrapper {
             width: 120px;
@@ -235,6 +238,7 @@
             position: relative;
             z-index: 2;
             animation: iconBounce 3s infinite ease-in-out;
+            margin: 0 auto;
 
             @media (max-width: $breakpoint-md) {
                 width: 100px;
@@ -369,22 +373,21 @@
     .coming-soon-title {
         font-size: 3.5rem;
         font-weight: 800;
-        margin-bottom: 25px;
         background: linear-gradient(90deg, $deep-blue, $vibrant-green);
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
         display: inline-block;
         position: relative;
+        width: 100%;
+        margin: 0;
 
         @media (max-width: $breakpoint-md) {
             font-size: 2.8rem;
-            margin-bottom: 20px;
         }
 
         @media (max-width: $breakpoint-sm) {
             font-size: 2.2rem;
-            margin-bottom: 15px;
         }
     }
 
@@ -392,20 +395,17 @@
         font-size: 1.3rem;
         color: rgba($dark-gray, 0.8);
         line-height: 1.8;
-        margin-bottom: 50px;
         max-width: 600px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
+        width: 100%;
 
         @media (max-width: $breakpoint-md) {
             font-size: 1.2rem;
-            margin-bottom: 40px;
             line-height: 1.7;
         }
 
         @media (max-width: $breakpoint-sm) {
             font-size: 1.1rem;
-            margin-bottom: 30px;
             line-height: 1.6;
         }
     }
@@ -414,17 +414,15 @@
         display: flex;
         justify-content: center;
         gap: 40px;
-        margin-bottom: 50px;
         flex-wrap: wrap;
+        width: 100%;
 
         @media (max-width: $breakpoint-md) {
             gap: 30px;
-            margin-bottom: 40px;
         }
 
         @media (max-width: $breakpoint-sm) {
             gap: 20px;
-            margin-bottom: 30px;
         }
 
         .feature-item {
@@ -486,6 +484,8 @@
     }
 
     .progress-indicator {
+        width: 100%;
+
         .progress-bar {
             width: 100%;
             max-width: 400px;

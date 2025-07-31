@@ -27,19 +27,6 @@
           "Database Architecture",
           "Maintenance & Support"
         ]
-      },
-      {
-        "id": 2,
-        "icon": "fa-hashtag",
-        "title": "Social Media Management",
-        "description": "Strategic social media planning, content creation, and analytics to boost your brand presence on platforms like Instagram and Facebook, engaging your target audience.",
-        "features": [
-          "Content Strategy",
-          "Campaign Management",
-          "Community Engagement",
-          "Performance Analytics",
-          "Paid Advertising"
-        ]
       }
     ],
     "ctaContactButton": "Let's Talk",
